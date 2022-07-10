@@ -75,5 +75,7 @@ This analysis was conducted to compare 6 different supervised machine learning m
 - High Risk F1 Score: 0.14, Very Poor
 - Low Risk F1 Score: 0.97, Very Good
 
+### Priority Features
+![priority_features](https://user-images.githubusercontent.com/100614266/178161577-1f61c0fc-bce3-40e6-a1e5-6a0513a14154.png)
 
 # Summary
