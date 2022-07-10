@@ -79,3 +79,5 @@ This analysis was conducted to compare 6 different supervised machine learning m
 ![priority_features](https://user-images.githubusercontent.com/100614266/178161577-1f61c0fc-bce3-40e6-a1e5-6a0513a14154.png)
 
 # Summary
+
+If one of these models needs to be used, it would be best to use the Easy Ensemble AdaBoost Classifier model. It has the highest balanced accuracy score, and best scores for High Risk precision, recall, and F1 score. That being said, those scores are all vastly below the minimum demarcation of a BAD score. Anything under 0.60 or 0.50 (depending on the specific metric) is POOR. These scores are about 0.40 pts below that. The metrics for low risk are also the best with the Ensemble model, and tend to be sufficient across the 6 different models. However, while these models will be good at predicted low credit risk, they will be spotty at best with predicting high credit risk. Therefore, any of these models are likely to produce poor quality predictions which will not be very useful. 
